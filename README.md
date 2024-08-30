@@ -1,24 +1,45 @@
 # vue-product-list
 
-## Project setup
-```
-npm install
-```
+## Технологии
+--------------
+Проект написан с использованием:
 
-### Compiles and hot-reloads for development
+- Vue 3
+- TypeScript
+- Vuex
+
+## Установка
+-------------
+1. Клонируйте репозиторий:
+   ```
+    git clone https://github.com/improve11/tz_vue.git
+   ```
+2. Перейдите в директорий проекта:
+   ```
+   cd tz_vue
+   ```
+3. Установите зависимости:
+
+  ```
+  npm install
+  ```
+
+### Запуск
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Для сборки
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Структура проекта
+---------------------
+Описание директорий, например:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- `src/` - исходный код
+- `public/` - статичные файлы
+- `store/` - Vuex store
+- `components/` - Vue компоненты
+
